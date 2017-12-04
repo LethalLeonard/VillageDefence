@@ -19,12 +19,17 @@ public class mobSpawning
     @SubscribeEvent
     public void spawnMobs(WorldTickEvent event)
     {
+        //makes it so that it's called at the end of the tick, only in the overworld, and serverside
         if(event.phase == TickEvent.Phase.END && event.world.provider.getDimension() ==0
                 && event.side == Side.SERVER)
         {
+            //fires at 10PM every in-game day
             if(event.world.getWorldTime()%24000 == 22000)
             {
+                //gets the current day in-game
                 int currDay = DifficultyScaling.getCurrDay(event.world);
+
+                //sets the current difficulty
                 difficulty = DifficultyScaling.getDifficulty(currDay);
                 LogHelper.logInfo("It's 10 PM!");
             }
