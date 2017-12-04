@@ -1,10 +1,8 @@
 package com.lethalleonard.villagedefence;
 
-import com.lethalleonard.villagedefence.MobWaves.mobSpawning;
 import com.lethalleonard.villagedefence.Proxy.CommonProxy;
 import com.lethalleonard.villagedefence.Reference.Reference;
 import com.lethalleonard.villagedefence.Utils.LogHelper;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -22,20 +20,21 @@ public class VillageDefence
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        LogHelper.logInfo("TEST");
-        MinecraftForge.EVENT_BUS.register(new mobSpawning());
+        LogHelper.logInfo("Starting Pre-Initialization...");
         proxy.preInit(event);
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        LogHelper.logInfo("Starting Initialization...");
         proxy.init(event);
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
+        LogHelper.logInfo("Starting Post-Initialization...");
         proxy.postInit(event);
     }
 }

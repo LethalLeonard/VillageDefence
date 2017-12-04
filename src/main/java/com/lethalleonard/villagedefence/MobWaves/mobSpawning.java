@@ -22,16 +22,16 @@ public class mobSpawning
     @SubscribeEvent
     public void spawnMobs(WorldTickEvent event)
     {
-        //gets a list of all players in-game
-        List<EntityPlayer> players = event.world.playerEntities;
-
         //makes it so that it's called at the end of the tick, only in the overworld, and serverside
-        if(event.phase == TickEvent.Phase.END && event.world.provider.getDimension() ==0
+        if(event.phase == TickEvent.Phase.END && event.world.provider.getDimension() == 0
                 && event.side == Side.SERVER)
         {
             //fires at 10PM every in-game day
-            if(event.world.getWorldTime()%24000 == 22000)
+            if(event.world.getWorldTime()%24000 == 16000)
             {
+                //gets a list of all players in-game
+                List<EntityPlayer> players = event.world.playerEntities;
+
                 //gets the current day in-game
                 int currDay = DifficultyScaling.getCurrDay(event.world);
 
@@ -41,7 +41,8 @@ public class mobSpawning
                 //goes through the playerlist and messages them that it's 10pm at 10pm
                 for(int i = 0; i < players.size(); i++)
                 {
-                    players.get(i).sendMessage(new TextComponentString("It's 10 PM!"));
+                    players.get(i).sendMessage(new TextComponentString("Time: " + (event.world.getWorldTime()%24000)/10));
+                    players.get(i).sendMessage(new TextComponentString("Day: " + currDay));
                 }
             }
         }

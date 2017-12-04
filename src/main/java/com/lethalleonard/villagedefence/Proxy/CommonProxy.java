@@ -1,21 +1,22 @@
 package com.lethalleonard.villagedefence.Proxy;
 
-import com.lethalleonard.villagedefence.Utils.LogHelper;
+import com.lethalleonard.villagedefence.MobWaves.mobSpawning;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-public class CommonProxy
+abstract public class CommonProxy implements IProxy
 {
 
     public void preInit(FMLPreInitializationEvent event)
     {
-        LogHelper.logInfo("Starting PreInit");
+        MinecraftForge.EVENT_BUS.register(new mobSpawning());
     }
 
     public void init(FMLInitializationEvent event)
     {
-        LogHelper.logInfo("Starting Init");
+
     }
 
     public void postInit(FMLPostInitializationEvent event)

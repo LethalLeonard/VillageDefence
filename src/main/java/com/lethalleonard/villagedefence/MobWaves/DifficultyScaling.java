@@ -23,9 +23,7 @@ public class DifficultyScaling
             dayMult = dayOfWeek;
 
         //adds the day multiplier to the week multiplier to get the total multiplier
-        double multiplier = (dayMult * 0.77) + (week * 1.2);
-
-        return(multiplier);
+        return((dayMult * 0.77) + (week * 1.2));
     }
 
     //returns the active world day
