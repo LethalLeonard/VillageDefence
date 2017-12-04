@@ -1,11 +1,14 @@
 package com.lethalleonard.villagedefence.MobWaves;
 
 import com.lethalleonard.villagedefence.Utils.LogHelper;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.WorldTickEvent;
 import net.minecraftforge.fml.relauncher.Side;
+import java.util.List;
 
 @Mod.EventBusSubscriber
 public class mobSpawning
@@ -19,6 +22,9 @@ public class mobSpawning
     @SubscribeEvent
     public void spawnMobs(WorldTickEvent event)
     {
+        //gets a list of all players in-game
+        List<EntityPlayer> players = event.world.playerEntities;
+
         //makes it so that it's called at the end of the tick, only in the overworld, and serverside
         if(event.phase == TickEvent.Phase.END && event.world.provider.getDimension() ==0
                 && event.side == Side.SERVER)
@@ -31,7 +37,12 @@ public class mobSpawning
 
                 //sets the current difficulty
                 difficulty = DifficultyScaling.getDifficulty(currDay);
-                LogHelper.logInfo("It's 10 PM!");
+
+                //goes through the playerlist and messages them that it's 10pm at 10pm
+                for(int i = 0; i < players.size(); i++)
+                {
+                    players.get(i).sendMessage(new TextComponentString("It's 10 PM!"));
+                }
             }
         }
     }
