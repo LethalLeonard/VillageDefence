@@ -1,5 +1,6 @@
 package com.lethalleonard.villagedefence.Proxy;
 
+import com.lethalleonard.villagedefence.Items.TimeWand;
 import com.lethalleonard.villagedefence.MobWaves.mobSpawning;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -12,6 +13,7 @@ public class CommonProxy
     public void preInit(FMLPreInitializationEvent event)
     {
         MinecraftForge.EVENT_BUS.register(new mobSpawning());
+        MinecraftForge.EVENT_BUS.register(new TimeWand());
     }
 
     public void init(FMLInitializationEvent event)

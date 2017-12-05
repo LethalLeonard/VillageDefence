@@ -1,255 +1,258 @@
-[21:02:38] [main/INFO]: Extra: []
-[21:02:38] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/jake/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[21:02:38] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:02:38] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:02:38] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[21:02:38] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:02:38] [main/INFO]: Forge Mod Loader version 14.23.1.2559 for Minecraft 1.12.2 loading
-[21:02:38] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_151, running on Linux:amd64:4.10.0-40-generic, installed at /usr/lib/jvm/java-8-oracle/jre
-[21:02:38] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[21:02:38] [main/INFO]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[21:02:38] [main/INFO]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[21:02:38] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[21:02:38] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[21:02:38] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[21:02:38] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:02:38] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:02:38] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[21:02:38] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:02:38] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:02:38] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:02:42] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[21:02:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:02:42] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:02:44] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[21:02:44] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:02:44] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:02:44] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[21:02:46] [main/INFO]: Setting user: Player765
-[21:02:56] [main/WARN]: Skipping bad option: lastServer:
-[21:02:56] [main/INFO]: LWJGL Version: 2.9.4
-[21:02:58] [main/INFO]: -- System Details --
+[01:36:35] [main/INFO]: username: lethalleonard
+[01:36:35] [main/INFO]: Extra: []
+[01:36:35] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Jake/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --username, lethalleonard, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[01:36:36] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:36:36] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:36:36] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:36:36] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:36:36] [main/INFO]: Forge Mod Loader version 14.23.1.2559 for Minecraft 1.12.2 loading
+[01:36:36] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_151, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_151\jre
+[01:36:36] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[01:36:36] [main/INFO]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[01:36:36] [main/INFO]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[01:36:36] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:36:36] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[01:36:36] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[01:36:36] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:36:36] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:36:36] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:36:36] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:36:36] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:36:36] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:36:37] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[01:36:37] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:36:37] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:36:38] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:36:38] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:36:38] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:36:38] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:36:39] [main/INFO]: Setting user: lethalleonard
+[01:36:42] [main/WARN]: Skipping bad option: lastServer:
+[01:36:42] [main/INFO]: LWJGL Version: 2.9.4
+[01:36:44] [main/INFO]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
-	Operating System: Linux (amd64) version 4.10.0-40-generic
+	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_151, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 131609632 bytes (125 MB) / 567803904 bytes (541 MB) up to 1612709888 bytes (1538 MB)
+	Memory: 387531760 bytes (369 MB) / 705691648 bytes (673 MB) up to 3790077952 bytes (3614 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'X.Org' Version: '3.0 Mesa 17.0.7' Renderer: 'Gallium 0.4 on AMD MULLINS (DRM 2.49.0 / 4.10.0-40-generic, LLVM 4.0.0)'
-[21:02:58] [main/INFO]: MinecraftForge v14.23.1.2559 Initialized
-[21:02:58] [main/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[21:02:58] [main/INFO]: Replaced 1036 ore ingredients
-[21:02:59] [main/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[21:02:59] [main/INFO]: Searching /home/jake/Documents/VillageDefence/run/mods for mods
-[21:03:02] [Thread-3/INFO]: Using sync timing. 200 frames of Display.update took 344630298 nanos
-[21:03:04] [main/INFO]: Forge Mod Loader has identified 5 mods to load
-[21:03:04] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, villagedefence] at CLIENT
-[21:03:04] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, villagedefence] at SERVER
-[21:03:07] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Village Defence
-[21:03:07] [main/INFO]: Processing ObjectHolder annotations
-[21:03:07] [main/INFO]: Found 1168 ObjectHolder annotations
-[21:03:07] [main/INFO]: Identifying ItemStackHolder annotations
-[21:03:07] [main/INFO]: Found 0 ItemStackHolder annotations
-[21:03:08] [main/INFO]: Configured a dormant chunk cache size of 0
-[21:03:08] [main/INFO]: [villagedefence] Starting Pre-Initialization...
-[21:03:08] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[21:03:08] [main/INFO]: Applying holder lookups
-[21:03:08] [main/INFO]: Holder lookups applied
-[21:03:08] [main/INFO]: Applying holder lookups
-[21:03:08] [main/INFO]: Holder lookups applied
-[21:03:08] [main/INFO]: Applying holder lookups
-[21:03:08] [main/INFO]: Holder lookups applied
-[21:03:08] [main/INFO]: Applying holder lookups
-[21:03:08] [main/INFO]: Holder lookups applied
-[21:03:08] [main/INFO]: Injecting itemstacks
-[21:03:08] [main/INFO]: Itemstack injection complete
-[21:03:08] [Forge Version Check/INFO]: [forge] Found status: AHEAD Target: null
-[21:03:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[21:03:11] [Thread-4/INFO]: Initializing LWJGL OpenAL
-[21:03:11] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:03:11] [Thread-4/INFO]: OpenAL initialized.
-[21:03:12] [Sound Library Loader/INFO]: Sound engine started
-[21:03:18] [main/INFO]: Max texture size: 16384
-[21:03:19] [main/INFO]: Created: 512x512 textures-atlas
-[21:03:26] [main/INFO]: Applying holder lookups
-[21:03:26] [main/INFO]: Holder lookups applied
-[21:03:26] [main/INFO]: [villagedefence] Starting Initialization...
-[21:03:26] [main/INFO]: Injecting itemstacks
-[21:03:26] [main/INFO]: Itemstack injection complete
-[21:03:26] [main/INFO]: [villagedefence] Starting Post-Initialization...
-[21:03:27] [main/INFO]: Forge Mod Loader has successfully loaded 5 mods
-[21:03:27] [main/WARN]: Skipping bad option: lastServer:
-[21:03:27] [main/INFO]: Narrator library successfully loaded
-[21:03:32] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[21:03:35] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
-[21:03:35] [Server thread/INFO]: Generating keypair
-[21:03:36] [Server thread/INFO]: Injecting existing registry data into this server instance
-[21:03:36] [Server thread/INFO]: Applying holder lookups
-[21:03:36] [Server thread/INFO]: Holder lookups applied
-[21:03:37] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@4c7e1bdc)
-[21:03:38] [Server thread/INFO]: Loaded 488 advancements
-[21:03:38] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@4c7e1bdc)
-[21:03:38] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@4c7e1bdc)
-[21:03:38] [Server thread/INFO]: Preparing start region for level 0
-[21:03:39] [Server thread/INFO]: Preparing spawn area: 2%
-[21:03:40] [Server thread/INFO]: Preparing spawn area: 48%
-[21:03:42] [Server thread/INFO]: Changing view distance to 6, from 10
-[21:03:45] [Netty Local Client IO #0/INFO]: Server protocol version 2
-[21:03:45] [Netty Server IO #1/INFO]: Client protocol version 2
-[21:03:45] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.1.2559,villagedefence@0.1a,mcp@9.42
-[21:03:45] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
-[21:03:45] [Server thread/INFO]: [Server thread] Server side modded connection established
-[21:03:45] [Server thread/INFO]: Player765[local:E:85256ab5] logged in with entity id 407 at (-136.50083227852207, 78.0, 258.38388127416)
-[21:03:45] [Server thread/INFO]: Player765 joined the game
-[21:03:48] [Server thread/INFO]: Saving and pausing game...
-[21:03:48] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:03:49] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:03:49] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:03:49] [main/INFO]: Loaded 3 advancements
-[21:03:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6204ms behind, skipping 124 tick(s)
-[21:03:58] [Server thread/INFO]: [Player765: Set the time to 15900]
-[21:03:58] [main/INFO]: [CHAT] Set the time to 15900
-[21:04:03] [main/INFO]: [CHAT] Time: 1600
-[21:04:03] [main/INFO]: [CHAT] Day: 0
-[21:04:03] [main/INFO]: [CHAT] Number of mobs spawned: 29
-[21:04:30] [main/INFO]: [CHAT] Saved screenshot as 2017-12-04_21.04.29.png
-[21:04:32] [Server thread/INFO]: Saving and pausing game...
-[21:04:33] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:04:33] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:04:33] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:04:36] [Server thread/INFO]: Changing difficulty to PEACEFUL, from EASY
-[21:05:35] [Server thread/INFO]: [Player765: Set the time to 116790]
-[21:05:35] [main/INFO]: [CHAT] Set the time to 116790
-[21:05:38] [Server thread/INFO]: [Player765: Set the time to 1167900]
-[21:05:38] [main/INFO]: [CHAT] Set the time to 1167900
-[21:05:40] [main/INFO]: [CHAT] Time: 1595
-[21:05:40] [main/INFO]: [CHAT] Day: 48
-[21:05:40] [main/INFO]: [CHAT] Number of mobs spawned: 257
-[21:05:45] [Server thread/INFO]: Saving and pausing game...
-[21:05:45] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:05:45] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:05:45] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:05:52] [Server thread/INFO]: Changing difficulty to EASY, from PEACEFUL
-[21:05:53] [Server thread/INFO]: [Player765: Set the time to 1167900]
-[21:05:53] [main/INFO]: [CHAT] Set the time to 1167900
-[21:05:56] [main/INFO]: [CHAT] Time: 1595
-[21:05:56] [main/INFO]: [CHAT] Day: 48
-[21:05:56] [main/INFO]: [CHAT] Number of mobs spawned: 257
-[21:06:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2098ms behind, skipping 41 tick(s)
-[21:06:17] [Server thread/INFO]: Saving and pausing game...
-[21:06:17] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:06:17] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:06:17] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:06:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2884ms behind, skipping 57 tick(s)
-[21:06:19] [Server thread/INFO]: Stopping server
-[21:06:19] [Server thread/INFO]: Saving players
-[21:06:19] [Server thread/INFO]: Player765 lost connection: Disconnected
-[21:06:19] [Server thread/INFO]: Player765 left the game
-[21:06:19] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[21:06:19] [Server thread/INFO]: Saving worlds
-[21:06:19] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:06:19] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:06:19] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:06:19] [Server thread/INFO]: Unloading dimension 0
-[21:06:19] [Server thread/INFO]: Unloading dimension -1
-[21:06:19] [Server thread/INFO]: Unloading dimension 1
-[21:06:19] [Server thread/INFO]: Applying holder lookups
-[21:06:19] [Server thread/INFO]: Holder lookups applied
-[21:06:24] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
-[21:06:24] [Server thread/INFO]: Generating keypair
-[21:06:24] [Server thread/INFO]: Injecting existing registry data into this server instance
-[21:06:25] [Server thread/INFO]: Applying holder lookups
-[21:06:25] [Server thread/INFO]: Holder lookups applied
-[21:06:25] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@2822a31)
-[21:06:25] [Server thread/INFO]: Loaded 488 advancements
-[21:06:25] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@2822a31)
-[21:06:25] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@2822a31)
-[21:06:25] [Server thread/INFO]: Preparing start region for level 0
-[21:06:26] [Server thread/INFO]: Preparing spawn area: 67%
-[21:06:27] [Server thread/INFO]: Changing view distance to 6, from 10
-[21:06:27] [Netty Local Client IO #1/INFO]: Server protocol version 2
-[21:06:27] [Netty Server IO #3/INFO]: Client protocol version 2
-[21:06:27] [Netty Server IO #3/INFO]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.1.2559,villagedefence@0.1a,mcp@9.42
-[21:06:27] [Netty Local Client IO #1/INFO]: [Netty Local Client IO #1] Client side modded connection established
-[21:06:27] [Server thread/INFO]: [Server thread] Server side modded connection established
-[21:06:27] [Server thread/INFO]: Player765[local:E:5c7e9eaf] logged in with entity id 38385 at (-136.67589253831136, 78.0, 258.26835617755637)
-[21:06:27] [Server thread/INFO]: Player765 joined the game
-[21:06:28] [Server thread/INFO]: Saving and pausing game...
-[21:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:06:28] [main/INFO]: Loaded 3 advancements
-[21:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:06:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2415ms behind, skipping 48 tick(s)
-[21:06:31] [Server thread/INFO]: Saving and pausing game...
-[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:06:36] [Server thread/INFO]: Changing difficulty to PEACEFUL, from EASY
-[21:06:40] [Server thread/INFO]: Saving and pausing game...
-[21:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:06:42] [Server thread/INFO]: Changing difficulty to EASY, from PEACEFUL
-[21:07:26] [Server thread/INFO]: [Player765: Set the time to 1191920]
-[21:07:26] [main/INFO]: [CHAT] Set the time to 1191920
-[21:07:27] [main/INFO]: [CHAT] Time: 1595
-[21:07:27] [main/INFO]: [CHAT] Day: 49
-[21:07:27] [main/INFO]: [CHAT] Number of mobs spawned: 164
-[21:08:19] [Server thread/INFO]: Saving and pausing game...
-[21:08:19] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:08:19] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:08:19] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:08:23] [Server thread/INFO]: Changing difficulty to PEACEFUL, from EASY
-[21:08:24] [Server thread/INFO]: Saving and pausing game...
-[21:08:24] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:08:24] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:08:24] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:08:26] [Server thread/INFO]: Changing difficulty to EASY, from PEACEFUL
-[21:08:32] [Server thread/INFO]: [Player765: Set the time to 1167900]
-[21:08:32] [main/INFO]: [CHAT] Set the time to 1167900
-[21:08:35] [main/INFO]: [CHAT] Time: 1595
-[21:08:35] [main/INFO]: [CHAT] Day: 48
-[21:08:35] [main/INFO]: [CHAT] Number of mobs spawned: 257
-[21:08:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2024ms behind, skipping 40 tick(s)
-[21:09:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4252ms behind, skipping 85 tick(s)
-[21:09:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4178ms behind, skipping 83 tick(s)
-[21:09:19] [Server thread/INFO]: [Player765: Set the time to 15900]
-[21:09:19] [main/INFO]: [CHAT] Set the time to 15900
-[21:09:24] [main/INFO]: [CHAT] Time: 1600
-[21:09:24] [main/INFO]: [CHAT] Day: 0
-[21:09:24] [main/INFO]: [CHAT] Number of mobs spawned: 29
-[21:09:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5198ms behind, skipping 103 tick(s)
-[21:09:40] [main/INFO]: [CHAT] Saved screenshot as 2017-12-04_21.09.40.png
-[21:09:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5733ms behind, skipping 114 tick(s)
-[21:09:51] [Server thread/INFO]: [Player765: Set own game mode to Survival Mode]
-[21:09:51] [main/INFO]: [CHAT] Your game mode has been updated to Survival Mode
-[21:09:55] [Server thread/INFO]: [Player765: Set own game mode to Creative Mode]
-[21:09:55] [main/INFO]: [CHAT] Your game mode has been updated to Creative Mode
-[21:09:58] [main/INFO]: [CHAT] Saved screenshot as 2017-12-04_21.09.58.png
-[21:10:11] [Server thread/INFO]: Saving and pausing game...
-[21:10:11] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:10:11] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:10:11] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:10:20] [Server thread/INFO]: Changing difficulty to PEACEFUL, from EASY
-[21:10:21] [Server thread/INFO]: Saving and pausing game...
-[21:10:21] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:10:21] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:10:21] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:10:22] [Server thread/INFO]: Stopping server
-[21:10:22] [Server thread/INFO]: Saving players
-[21:10:22] [Server thread/INFO]: Player765 lost connection: Disconnected
-[21:10:22] [Server thread/INFO]: Player765 left the game
-[21:10:22] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[21:10:22] [Server thread/INFO]: Saving worlds
-[21:10:22] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[21:10:22] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[21:10:22] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[21:10:22] [Server thread/INFO]: Unloading dimension 0
-[21:10:22] [Server thread/INFO]: Unloading dimension -1
-[21:10:22] [Server thread/INFO]: Unloading dimension 1
-[21:10:23] [Server thread/INFO]: Applying holder lookups
-[21:10:23] [Server thread/INFO]: Holder lookups applied
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 388.13' Renderer: 'GeForce GTX TITAN/PCIe/SSE2'
+[01:36:44] [main/INFO]: MinecraftForge v14.23.1.2559 Initialized
+[01:36:44] [main/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:36:44] [main/INFO]: Replaced 1036 ore ingredients
+[01:36:44] [main/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[01:36:44] [main/INFO]: Searching C:\Users\Jake\Documents\mods\1.12\VillageDefence\run\mods for mods
+[01:36:45] [main/INFO]: Forge Mod Loader has identified 5 mods to load
+[01:36:45] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, villagedefence] at CLIENT
+[01:36:45] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, villagedefence] at SERVER
+[01:36:46] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Village Defence
+[01:36:46] [main/INFO]: Processing ObjectHolder annotations
+[01:36:46] [main/INFO]: Found 1168 ObjectHolder annotations
+[01:36:46] [main/INFO]: Identifying ItemStackHolder annotations
+[01:36:46] [main/INFO]: Found 0 ItemStackHolder annotations
+[01:36:46] [main/INFO]: Configured a dormant chunk cache size of 0
+[01:36:46] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:36:46] [main/INFO]: [villagedefence] Starting Pre-Initialization...
+[01:36:46] [main/INFO]: Applying holder lookups
+[01:36:46] [main/INFO]: Holder lookups applied
+[01:36:46] [main/INFO]: Applying holder lookups
+[01:36:46] [main/INFO]: Holder lookups applied
+[01:36:46] [main/INFO]: Applying holder lookups
+[01:36:46] [main/INFO]: Holder lookups applied
+[01:36:46] [main/INFO]: Applying holder lookups
+[01:36:46] [main/INFO]: Holder lookups applied
+[01:36:46] [main/INFO]: Injecting itemstacks
+[01:36:46] [main/INFO]: Itemstack injection complete
+[01:36:46] [Forge Version Check/INFO]: [forge] Found status: AHEAD Target: null
+[01:36:46] [Thread-3/INFO]: Using sync timing. 200 frames of Display.update took 78957797 nanos
+[01:36:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:36:48] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[01:36:48] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:36:48] [Thread-5/INFO]: OpenAL initialized.
+[01:36:48] [Sound Library Loader/INFO]: Sound engine started
+[01:36:52] [main/INFO]: Max texture size: 16384
+[01:36:52] [main/INFO]: Created: 512x512 textures-atlas
+[01:36:53] [main/INFO]: Applying holder lookups
+[01:36:53] [main/INFO]: Holder lookups applied
+[01:36:53] [main/INFO]: [villagedefence] Starting Initialization...
+[01:36:53] [main/INFO]: Injecting itemstacks
+[01:36:53] [main/INFO]: Itemstack injection complete
+[01:36:53] [main/INFO]: [villagedefence] Starting Post-Initialization...
+[01:36:53] [main/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[01:36:53] [main/WARN]: Skipping bad option: lastServer:
+[01:36:54] [main/INFO]: Narrator library for x64 successfully loaded
+[01:36:54] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[01:36:58] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[01:36:58] [Server thread/INFO]: Generating keypair
+[01:36:58] [Server thread/INFO]: Injecting existing registry data into this server instance
+[01:36:58] [Server thread/INFO]: Applying holder lookups
+[01:36:58] [Server thread/INFO]: Holder lookups applied
+[01:36:58] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@6135f751)
+[01:36:59] [Server thread/INFO]: Loaded 488 advancements
+[01:36:59] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@6135f751)
+[01:36:59] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@6135f751)
+[01:36:59] [Server thread/INFO]: Preparing start region for level 0
+[01:37:00] [Server thread/INFO]: Changing view distance to 6, from 10
+[01:37:01] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[01:37:01] [Netty Server IO #1/INFO]: Client protocol version 2
+[01:37:01] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.1.2559,villagedefence@0.1a,mcp@9.42
+[01:37:01] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[01:37:01] [Server thread/INFO]: [Server thread] Server side modded connection established
+[01:37:01] [Server thread/INFO]: lethalleonard[local:E:e98d7c2d] logged in with entity id 438 at (-100.6651798327015, 71.0, 277.44091573547576)
+[01:37:01] [Server thread/INFO]: lethalleonard joined the game
+[01:37:02] [Server thread/INFO]: Saving and pausing game...
+[01:37:02] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[01:37:02] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@e66572f[id=4affb3ac-85f1-3b3b-8cc4-f366ec297f07,name=lethalleonard,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3190) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[01:37:02] [main/INFO]: Loaded 31 advancements
+[01:37:02] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[01:37:02] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[01:37:03] [main/INFO]: [CHAT] Time: 16196
+[01:37:04] [main/INFO]: [CHAT] Time: 16207
+[01:37:04] [main/INFO]: [CHAT] Time: 16210
+[01:37:04] [main/INFO]: [CHAT] Time: 16214
+[01:37:04] [main/INFO]: [CHAT] Time: 16217
+[01:37:05] [main/INFO]: [CHAT] Time: 16221
+[01:37:05] [main/INFO]: [CHAT] Time: 16225
+[01:37:05] [main/INFO]: [CHAT] Time: 16229
+[01:37:09] [main/INFO]: [CHAT] Time: 16309
+[01:37:27] [main/INFO]: [CHAT] Time: 16666
+[01:37:27] [main/INFO]: [CHAT] Time: 16666
+[01:37:27] [main/INFO]: [CHAT] Time: 16675
+[01:37:27] [main/INFO]: [CHAT] Time: 16675
+[01:37:28] [main/INFO]: [CHAT] Time: 16679
+[01:37:28] [main/INFO]: [CHAT] Time: 16679
+[01:37:28] [main/INFO]: [CHAT] Time: 16689
+[01:37:28] [main/INFO]: [CHAT] Time: 16689
+[01:37:28] [main/INFO]: [CHAT] Time: 16698
+[01:37:28] [main/INFO]: [CHAT] Time: 16698
+[01:37:29] [main/INFO]: [CHAT] Time: 16709
+[01:37:29] [main/INFO]: [CHAT] Time: 16709
+[01:37:30] [main/INFO]: [CHAT] Time: 16721
+[01:37:30] [main/INFO]: [CHAT] Time: 16721
+[01:37:30] [main/INFO]: [CHAT] Time: 16733
+[01:37:30] [main/INFO]: [CHAT] Time: 16733
+[01:37:30] [main/INFO]: [CHAT] Time: 16737
+[01:37:30] [main/INFO]: [CHAT] Time: 16737
+[01:37:31] [main/INFO]: [CHAT] Time: 16741
+[01:37:31] [main/INFO]: [CHAT] Time: 16741
+[01:37:31] [main/INFO]: [CHAT] Time: 16754
+[01:37:31] [main/INFO]: [CHAT] Time: 16754
+[01:37:32] [main/INFO]: [CHAT] Time: 16765
+[01:37:32] [main/INFO]: [CHAT] Time: 16765
+[01:37:32] [main/INFO]: [CHAT] Time: 16774
+[01:37:32] [main/INFO]: [CHAT] Time: 16774
+[01:37:33] [main/INFO]: [CHAT] Time: 16786
+[01:37:33] [main/INFO]: [CHAT] Time: 16786
+[01:37:34] [main/INFO]: [CHAT] Time: 16810
+[01:37:35] [main/INFO]: [CHAT] Time: 16819
+[01:37:35] [main/INFO]: [CHAT] Time: 16829
+[01:37:36] [main/INFO]: [CHAT] Time: 16839
+[01:37:37] [main/INFO]: [CHAT] Time: 16867
+[01:37:37] [main/INFO]: [CHAT] Time: 16878
+[01:37:38] [main/INFO]: [CHAT] Time: 16886
+[01:37:39] [main/INFO]: [CHAT] Time: 16899
+[01:37:39] [main/INFO]: [CHAT] Time: 16909
+[01:37:41] [main/INFO]: [CHAT] Time: 16953
+[01:37:41] [main/INFO]: [CHAT] Time: 16953
+[01:37:42] [main/INFO]: [CHAT] Time: 16967
+[01:37:42] [main/INFO]: [CHAT] Time: 16967
+[01:37:43] [main/INFO]: [CHAT] Time: 16979
+[01:37:43] [main/INFO]: [CHAT] Time: 16979
+[01:37:49] [main/INFO]: [CHAT] Time: 17107
+[01:37:49] [main/INFO]: [CHAT] Time: 17107
+[01:37:49] [main/INFO]: [CHAT] Time: 17118
+[01:37:49] [main/INFO]: [CHAT] Time: 17118
+[01:37:51] [main/INFO]: [CHAT] Time: 17151
+[01:37:52] [main/INFO]: [CHAT] Time: 17163
+[01:38:04] [Server thread/INFO]: [lethalleonard: Set the time to 15800]
+[01:38:04] [main/INFO]: [CHAT] Set the time to 15800
+[01:38:05] [main/INFO]: [CHAT] Time: 15818
+[01:38:05] [main/INFO]: [CHAT] Time: 15827
+[01:38:06] [main/INFO]: [CHAT] Time: 15838
+[01:38:06] [main/INFO]: [CHAT] Time: 15842
+[01:38:06] [main/INFO]: [CHAT] Time: 15847
+[01:38:07] [main/INFO]: [CHAT] Time: 15852
+[01:38:07] [main/INFO]: [CHAT] Time: 15856
+[01:38:07] [main/INFO]: [CHAT] Time: 15864
+[01:38:07] [main/INFO]: [CHAT] Time: 15869
+[01:38:08] [main/INFO]: [CHAT] Time: 15874
+[01:38:08] [main/INFO]: [CHAT] Time: 15878
+[01:38:08] [main/INFO]: [CHAT] Time: 15882
+[01:38:08] [main/INFO]: [CHAT] Time: 15887
+[01:38:09] [main/INFO]: [CHAT] Time: 15891
+[01:38:09] [main/INFO]: [CHAT] Time: 15896
+[01:38:09] [main/INFO]: [CHAT] Time: 15900
+[01:38:09] [main/INFO]: [CHAT] Time: 15905
+[01:38:10] [main/INFO]: [CHAT] Time: 15912
+[01:38:10] [main/INFO]: [CHAT] Time: 15917
+[01:38:10] [main/INFO]: [CHAT] Time: 15921
+[01:38:10] [main/INFO]: [CHAT] Time: 15925
+[01:38:11] [main/INFO]: [CHAT] Time: 15931
+[01:38:11] [main/INFO]: [CHAT] Time: 15935
+[01:38:11] [main/INFO]: [CHAT] Time: 15939
+[01:38:11] [main/INFO]: [CHAT] Time: 15947
+[01:38:12] [main/INFO]: [CHAT] Time: 15954
+[01:38:12] [main/INFO]: [CHAT] Time: 15961
+[01:38:12] [main/INFO]: [CHAT] Time: 15969
+[01:38:13] [main/INFO]: [CHAT] Time: 15981
+[01:38:13] [main/INFO]: [CHAT] Time: 15988
+[01:38:14] [main/INFO]: [CHAT] Time: 15997
+[01:38:14] [main/INFO]: [CHAT] Time: 1600
+[01:38:14] [main/INFO]: [CHAT] Day: 01
+[01:38:14] [main/INFO]: [CHAT] Number of mobs spawned: 29
+[01:38:14] [main/INFO]: [CHAT] Time: 16003
+[01:38:25] [Server thread/INFO]: Saving and pausing game...
+[01:38:26] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[01:38:26] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[01:38:26] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[01:38:29] [Server thread/INFO]: Saving and pausing game...
+[01:38:29] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[01:38:29] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[01:38:29] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[01:38:34] [Server thread/INFO]: Changing difficulty to PEACEFUL, from EASY
+[01:38:39] [Server thread/INFO]: Saving and pausing game...
+[01:38:39] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[01:38:39] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[01:38:39] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[01:38:39] [Server thread/INFO]: Stopping server
+[01:38:39] [Server thread/INFO]: Saving players
+[01:38:39] [Server thread/INFO]: lethalleonard lost connection: Disconnected
+[01:38:39] [Server thread/INFO]: lethalleonard left the game
+[01:38:39] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[01:38:39] [Server thread/INFO]: Saving worlds
+[01:38:39] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[01:38:39] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[01:38:39] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[01:38:40] [Server thread/INFO]: Unloading dimension 0
+[01:38:40] [Server thread/INFO]: Unloading dimension -1
+[01:38:40] [Server thread/INFO]: Unloading dimension 1
+[01:38:40] [Server thread/INFO]: Applying holder lookups
+[01:38:40] [Server thread/INFO]: Holder lookups applied
+[01:38:42] [main/INFO]: Stopping!
+[01:38:42] [main/INFO]: SoundSystem shutting down...
+[01:38:42] [main/WARN]: Author: Paul Lamb, www.paulscode.com

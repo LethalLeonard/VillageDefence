@@ -32,8 +32,8 @@ public class mobSpawning
     public void spawnMobs(WorldTickEvent event)
     {
         //makes it so that it's called at the end of the tick, only in the overworld, and serverside
-        if(event.phase == TickEvent.Phase.END && event.world.provider.getDimension() ==0
-                && event.side == Side.SERVER)
+        if(event.phase == TickEvent.Phase.END && event.world.provider.getDimension() == 0
+                && event.side == Side.SERVER && event.world.playerEntities.size() > 0)
         {
             //fires at 10PM every in-game day
             if(event.world.getWorldTime()%23999 == 16000)
@@ -77,7 +77,7 @@ public class mobSpawning
                 for(int k = 0; k < players.size(); k++)
                 {
                     players.get(k).sendMessage(new TextComponentString("Time: " + (event.world.getWorldTime()%24000)/10));
-                    players.get(k).sendMessage(new TextComponentString("Day: " + currDay));
+                    players.get(k).sendMessage(new TextComponentString("Day: " + currDay+1));
                     players.get(k).sendMessage(new TextComponentString("Number of mobs spawned: " + totalMobsToSpawn));
 
                 }
