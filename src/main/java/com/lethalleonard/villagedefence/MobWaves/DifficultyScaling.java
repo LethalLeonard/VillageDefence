@@ -7,10 +7,10 @@ public class DifficultyScaling
     public static double getDifficulty(int currDay)
     {
         //calculates the day of the week so that day 0 is the 7th day in the week
-        int dayOfWeek = (currDay + 1) % 7;
+        int dayOfWeek = ((currDay + 1) % 7);
 
-        //calculates the number of weeks and adds 1 so that the first week is week 1
-        int week = (int)Math.floor(currDay/7) + 1;
+        //calculates the number of weeks
+        int week = (int)Math.floor(currDay/7);
 
         //variable to set a multiplier for days
         int dayMult;
@@ -29,6 +29,11 @@ public class DifficultyScaling
     //returns the active world day
     public static int getCurrDay(World world)
     {
-        return((int)world.getWorldTime()/24000);
+        return((int)world.getWorldTime()/23999);
+    }
+
+    public static int getCurrWeek(World world)
+    {
+        return((int)(world.getWorldTime()/23999/7));
     }
 }

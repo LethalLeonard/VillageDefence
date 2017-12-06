@@ -44,41 +44,46 @@ public class mobSpawning
 
                 //gets the current day in-game
                 int currDay = DifficultyScaling.getCurrDay(event.world);
-
-                //sets the current difficulty
-                difficulty = DifficultyScaling.getDifficulty(currDay);
                 Random rand = new Random();
 
-                //populates spawnpoints... creates 5 spawnpoints around each players
-                for(int i = 0; i < players.size(); i++)
+                if(DifficultyScaling.getCurrWeek(event.world) > 0)
                 {
-                    BlockPos playerPos = players.get(i).getPosition();
-                    for(int k = 0; k < 5; k++)
+                    //sets the current difficulty
+                    difficulty = DifficultyScaling.getDifficulty(currDay);
+
+                    //populates spawnpoints... creates 5 spawnpoints around each players
+                    for (int i = 0; i < players.size(); i++)
                     {
-                        int x=playerPos.getX(),y,z=playerPos.getZ();
+                        BlockPos playerPos = players.get(i).getPosition();
+                        for (int k = 0; k < 5; k++)
+                        {
+                            int x = playerPos.getX(), y, z = playerPos.getZ();
 
-                        x = rand.nextInt(60) - 30 + x;
-                        z = rand.nextInt(60) - 30 + z;
-                        y = event.world.getHeight(x,z);
+                            x = rand.nextInt(60) - 30 + x;
+                            z = rand.nextInt(60) - 30 + z;
+                            y = event.world.getHeight(x, z);
 
-                        spawnpoints.add(new BlockPos(x,y,z));
+                            spawnpoints.add(new BlockPos(x, y, z));
+                        }
                     }
+
+                    //Sets the adjusted amount of mobs
+                    int creepersToSpawn = (int) (baseSpawnCreeper * (difficulty + (players.size() - 1) * 1.2));
+                    int zombiesToSpawn = (int) (baseSpawnZombie * (difficulty + (players.size() - 1) * 1.2));
+                    int endermenToSpawn = (int) (baseSpawnEnderman * (difficulty + (players.size() - 1) * 1.2));
+                    int totalMobsToSpawn = creepersToSpawn + zombiesToSpawn + endermenToSpawn;
+
+                    spawnMobs(event.world, spawnpoints, players, zombiesToSpawn, endermenToSpawn, creepersToSpawn);
+
+                    for(int i = 0; i < players.size(); i++)
+                        players.get(i).sendMessage(new TextComponentString("Number of mobs spawned: " + totalMobsToSpawn));
                 }
-
-                //Sets the adjusted amount of mobs
-                int creepersToSpawn = (int)(baseSpawnCreeper * (difficulty + (players.size()-1) * 1.2));
-                int zombiesToSpawn = (int)(baseSpawnZombie * (difficulty + (players.size()-1) * 1.2));
-                int endermenToSpawn = (int)(baseSpawnEnderman * (difficulty + (players.size()-1) * 1.2));
-                int totalMobsToSpawn = creepersToSpawn+zombiesToSpawn+endermenToSpawn;
-
-                spawnMobs(event.world, spawnpoints, players, zombiesToSpawn, endermenToSpawn,creepersToSpawn);
-
                 //goes through the playerlist and messages them that it's 10pm at 10pm
                 for(int k = 0; k < players.size(); k++)
                 {
                     players.get(k).sendMessage(new TextComponentString("Time: " + (event.world.getWorldTime()%24000)/10));
-                    players.get(k).sendMessage(new TextComponentString("Day: " + currDay+1));
-                    players.get(k).sendMessage(new TextComponentString("Number of mobs spawned: " + totalMobsToSpawn));
+                    players.get(k).sendMessage(new TextComponentString("Day: " + DifficultyScaling.getCurrDay(event.world)));
+                    players.get(k).sendMessage(new TextComponentString("Week: " + DifficultyScaling.getCurrWeek(event.world)));
 
                 }
             }
