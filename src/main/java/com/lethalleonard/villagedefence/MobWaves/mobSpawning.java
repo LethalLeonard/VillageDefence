@@ -58,9 +58,19 @@ public class mobSpawning
                         for (int k = 0; k < 5; k++)
                         {
                             int x = playerPos.getX(), y, z = playerPos.getZ();
+                            int posOrNeg = rand.nextInt(2);
 
-                            x = rand.nextInt(60) - 30 + x;
-                            z = rand.nextInt(60) - 30 + z;
+                            if(posOrNeg == 0)
+                                x = rand.nextInt(15) + 15 + x;
+                            else
+                                x = rand.nextInt(15) - 30 + x;
+
+                            posOrNeg = rand.nextInt(2);
+                            if(posOrNeg == 0)
+                                z = rand.nextInt(15) + 15 + z;
+                            else
+                                z = rand.nextInt(15) - 30 + z;
+
                             y = event.world.getHeight(x, z);
 
                             spawnpoints.add(new BlockPos(x, y, z));
@@ -82,7 +92,7 @@ public class mobSpawning
                 for(int k = 0; k < players.size(); k++)
                 {
                     players.get(k).sendMessage(new TextComponentString("Time: " + (event.world.getWorldTime()%24000)/10));
-                    players.get(k).sendMessage(new TextComponentString("Day: " + DifficultyScaling.getCurrDay(event.world)));
+                    players.get(k).sendMessage(new TextComponentString("Day: " + (DifficultyScaling.getCurrDay(event.world) + 1)));
                     players.get(k).sendMessage(new TextComponentString("Week: " + DifficultyScaling.getCurrWeek(event.world)));
 
                 }
