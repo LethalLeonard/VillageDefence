@@ -164,8 +164,8 @@ public class mobSpawning
         {
             BlockPos entityPos = entity.getPosition();
             int x,z;
-            x = entityPos.getX();
-            z = entityPos.getZ();
+            x = (int) Math.abs(entityPos.getX() - players.get(i).posX);
+            z = (int) Math.abs(entityPos.getZ() - players.get(i).posZ);
 
             distances[i] = (int)Math.sqrt(x+z);
         }

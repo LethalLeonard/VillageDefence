@@ -10,6 +10,6 @@ public class TimeWand extends ItemClock
     @SubscribeEvent
     public void timewand(PlayerInteractEvent.RightClickEmpty event)
     {
-            event.getEntityPlayer().sendMessage(new TextComponentString("Time: " + event.getWorld().getWorldTime()));
+            //event.getEntityPlayer().sendMessage(new TextComponentString("Time: " + event.getWorld().getWorldTime()));
     }
 }
