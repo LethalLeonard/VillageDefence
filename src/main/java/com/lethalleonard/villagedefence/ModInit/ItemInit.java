@@ -27,13 +27,20 @@ public class ItemInit
             LogHelper.logInfo("Starting item registration...");
             event.getRegistry().register(item);
             LogHelper.logInfo("Registering item: " + item.getUnlocalizedName().substring(5));
-            ModelLoader.setCustomModelResourceLocation(
-                    item,
-                    0,
-                    new ModelResourceLocation(item.getUnlocalizedName().substring(5)));
             LogHelper.logInfo("Finished registering " + item.getUnlocalizedName() + "...");
         }
 
         LogHelper.logInfo("Finished registering items.");
+    }
+
+    public static void registerTextures()
+    {
+        for(Item item : itemList)
+        {
+            ModelLoader.setCustomModelResourceLocation(
+                    item,
+                    0,
+                    new ModelResourceLocation(item.getUnlocalizedName().substring(5)));
+        }
     }
 }
