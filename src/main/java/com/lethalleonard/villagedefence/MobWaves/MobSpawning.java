@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Random;
 
 @Mod.EventBusSubscriber
-public class mobSpawning
+public class MobSpawning
 {
     public static final int baseSpawnCreeper = 4;
     public static final int baseSpawnZombie = 10;

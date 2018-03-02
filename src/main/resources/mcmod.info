@@ -1,0 +1,16 @@
+[
+{
+  "modid": "villagedefence",
+  "name": "Village Defence",
+  "description": "Defend the area around you against an impending doom...",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LethalLeonard"],
+  "credits": "LethalLeonard",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
